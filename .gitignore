@@ -1,0 +1,13 @@
+# Ambiente virtual e caches do Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Arquivos compactados brutos (o script src/data.py baixa e extrai automaticamente se necessário)
+data/*.zip
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
